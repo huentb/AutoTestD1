@@ -8,9 +8,9 @@ public class TestDemo {
     static WebDriver driver = null;
 
     public static void main(String[] agrs) {
-        driver = ;
+        driver = new ChromeDriver();
         driver.manage().window().maximize();;
-        driver.get("https://link.com");
+        driver.get("https://serenity-bdd.github.io/");
 //        driver.quit();
     }
 }
