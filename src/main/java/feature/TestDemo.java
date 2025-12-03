@@ -8,7 +8,7 @@ public class TestDemo {
     static WebDriver driver = null;
 
     public static void main(String[] agrs) {
-        driver = new FirefoxDriver();
+        driver = ;
         driver.manage().window().maximize();;
         driver.get("https://link.com");
 //        driver.quit();
