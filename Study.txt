@@ -1,0 +1,42 @@
+1. Cucumber using Serenity BDD and Screenplay
+
+||Sử dụng ngôn ngữ Gherkin (Given/When/Then) viết specs
+||Biến specs đó thành auto test
+||Tự động tạo test report pass/fail
+
+Ưu điểm: dễ hiểu, dễ tái sử dụng
+Nhược điểm: setup phức tạp, nặng
+
+Yêu cầu:
+- Java JDK từ 1.8
+- Maven 3 trở lên
+- IDE Java: IntelliJ hoặc Eclipse
+- Git
+
+Cấu trúc project:
+src
+├───main
+│   └───java
+│       └───starter: chứa source code của hệ thống
+└───test
+    ├───java
+    │   └───starter
+    │       └───helpers (page-object, navigation, action): chứa class thực thi hành động open, input, submit,... 
+    │       └───stepdefinitions: chứa code thực thi steps
+    └───resources
+        └───features: chứa specs
+
+
+2. Playwright
+
+||Hỗ trợ đa ngôn ngữ
+||Test trên nhiều browsers, test song song, test mobile mà không cần device thật
+
+Ưu điểm: cài đặt nhanh, gọn, ít file
+Nhược điểm: khó tái sử dụng, yêu cầu người đọc biết tech
+
+Cấu trúc project:
+tests/ //test dạng function
+ └─ example.spec.ts
+playwright.config.ts
+package.json
