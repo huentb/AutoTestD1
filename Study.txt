@@ -36,7 +36,7 @@ src
 Nhược điểm: khó tái sử dụng, yêu cầu người đọc biết tech
 
 Cấu trúc project:
-tests/ //test dạng function
+tests/
  └─ example.spec.ts
 playwright.config.ts
 package.json
