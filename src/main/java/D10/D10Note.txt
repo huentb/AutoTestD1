@@ -1,0 +1,16 @@
+1. Tìm locator
+Cách 1: thuộc tính tuyệt đối
+//input[@id='user-name']
+Cách 2: thuộc tính tương đối
+//input[contains(@id,'name')]
+Cách 3: tìm = text - tuyệt đối
+	//div[text()='{{text}}']
+text = concat thì chỉ tìm được theo text - tuyệt đối (tức là Cách 3)
+Cách 4: tìm = text - tương đối
+	//div[contains(text(),'{{text}}')]
+
+https://www.w3schools.com/xml/xpath_axes.asp
+
+Về TCs:
+trước khi có mt test, viết TCs bình thường, bỏ trống locator
+sau khi có mt test, bổ sung locator vào TCs
