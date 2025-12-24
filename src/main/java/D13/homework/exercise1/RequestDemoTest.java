@@ -1,4 +1,4 @@
-package D13.homework;
+package D13.homework.exercise1;
 
 import common.ExcelUtils;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class RequestDemoTest {
     public static void main(String[] args) {
-        String excelFilePath = "D:\\Automation Testing\\AutoTest\\AutoTestD1/dataInfo.xlsx";
+        String excelFilePath = "dataInfo.xlsx";
         String sheetName = "Sheet1";
 
         //doc du lieu tu file excel
