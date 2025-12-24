@@ -1,4 +1,4 @@
-package D13.homework;
+package D13.homework.exercise1;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;

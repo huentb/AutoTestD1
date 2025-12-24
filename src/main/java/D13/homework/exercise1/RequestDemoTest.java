@@ -1,4 +1,4 @@
-package D13.homework;
+package D13.homework.exercise1;
 
 import common.ExcelUtils;
 import org.openqa.selenium.WebDriver;
